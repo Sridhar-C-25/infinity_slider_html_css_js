@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Image Slider</title>
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Icon src -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+  </head>
+  <body>
+    <div class="slider">
+      <div class="slider-container">
+        <img src="assets/1.jpg" alt="" />
+        <img src="assets/2.jpg" alt="" />
+        <img src="assets/3.jpg" alt="" />
+        <img src="assets/4.jpg" alt="" />
+      </div>
+      <img src="" alt="" id="next-img" />
+      <div>
+        <button id="back">
+          <ion-icon name="chevron-back" size="large"></ion-icon>
+        </button>
+        <button id="forward">
+          <ion-icon name="chevron-forward" size="large"></ion-icon>
+        </button>
+      </div>
+      <div class="content">
+        <h1 class="name">Wanda Maximoff</h1>
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing.</p>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
